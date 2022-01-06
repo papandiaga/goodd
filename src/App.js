@@ -4,6 +4,7 @@ export default function App() {
   const questions = [
     {
       questionText: "What anime series is this character from?",
+
       answerOptions: [
         { answerText: "Attack on Titan", isCorrect: false },
         { answerText: "Dragon Ball Z", isCorrect: false },
@@ -12,30 +13,30 @@ export default function App() {
       ]
     },
     {
-      questionText: "Who is CEO of Tesla?",
+      questionText: "What anime series is this character from?",
       answerOptions: [
-        { answerText: "Jeff Bezos", isCorrect: false },
-        { answerText: "Elon Musk", isCorrect: true },
-        { answerText: "Bill Gates", isCorrect: false },
-        { answerText: "Tony Stark", isCorrect: false }
+        { answerText: "Black clover", isCorrect: false },
+        { answerText: "Fire Force", isCorrect: true },
+        { answerText: "My hero Academia", isCorrect: false },
+        { answerText: "Fairy tail", isCorrect: false }
       ]
     },
     {
-      questionText: "The iPhone was created by which company?",
+      questionText: "What anime series is this character from?",
       answerOptions: [
-        { answerText: "Apple", isCorrect: true },
-        { answerText: "Intel", isCorrect: false },
-        { answerText: "Amazon", isCorrect: false },
-        { answerText: "Microsoft", isCorrect: false }
+        { answerText: "One piece", isCorrect: true },
+        { answerText: "Jujutsu kaisen", isCorrect: false },
+        { answerText: "Steins,Gate", isCorrect: false },
+        { answerText: "Cowboy Bebop", isCorrect: false }
       ]
     },
     {
-      questionText: "How many Harry Potter books are there?",
+      questionText: "What anime series is this character from?",
       answerOptions: [
-        { answerText: "1", isCorrect: false },
-        { answerText: "4", isCorrect: false },
-        { answerText: "6", isCorrect: false },
-        { answerText: "7", isCorrect: true }
+        { answerText: "Tokyo Revengers", isCorrect: false },
+        { answerText: "Tokyo Ghoul", isCorrect: false },
+        { answerText: "One punch Man", isCorrect: false },
+        { answerText: "Fate Zero", isCorrect: true }
       ]
     }
   ];
