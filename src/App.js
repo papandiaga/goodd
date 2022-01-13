@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import image from "./naruto.jpeg";
+import "./App.css";
 
 export default function App() {
   const questions = [
@@ -28,6 +30,15 @@ export default function App() {
         { answerText: "Jujutsu kaisen", isCorrect: false },
         { answerText: "Steins,Gate", isCorrect: false },
         { answerText: "Cowboy Bebop", isCorrect: false }
+      ]
+    },
+    {
+      questionText: "What anime series is this character from?",
+      answerOptions: [
+        { answerText: "Assasination Classroom", isCorrect: false },
+        { answerText: "HxH", isCorrect: false },
+        { answerText: "The Seven Deadly Sins", isCorrect: true },
+        { answerText: "Tokyo Ravens", isCorrect: false }
       ]
     },
     {
@@ -84,6 +95,7 @@ export default function App() {
           </div>
         </>
       )}
+      <img src={image} />
     </div>
   );
 }
